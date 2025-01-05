@@ -3,38 +3,66 @@
     background-size: cover;
     font-family: "poppins";
 }
-.conteinar{
-    position: relative;
-    z-index: 1;
-    background-image: linear-gradient(#66ffcc, #ffffff);
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    box-shadow: 1px 1px 0 0 #d7f3f2;
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
 }
-.nbox{
-    margin: auto;
-    border-color: black;
-    border:solid;
-    border-width: 1px;
-    border-radius: 8px;
-    padding: 2px;
+input{
+    margin: 5PX;
+    color: white;
+    background-color: rgb(113, 113, 113);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
     text-align: center;
+    outline: none;
 }
-.button{
-    font-family: "poppins";
-    text-transform: uppercase;
-    outline: 0;
-    background-color: #6e8180;
-    border: 0;
-    padding: 2px;
-    color: #FFFFFF;
-    font-size: 14px;
-    cursor: pointer;
-    position: relative;
+button{
+    margin: 5px;
+    color: white;
+    background-color: rgb(113, 113, 113);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
 }
-.button:hover {
-    background-color: #4ba8a4;
-    position: relative;
+button:hover{
+    background-color: rgb(130, 130, 130);
+    color: white;
+    scale: 1.1;
+}
+button:active{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    scale: 1.1;
 }
 
+#copy{
+    color: white;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+}
+#copy:hover{
+    background-color: #e6e6e6;
+    color: white;
+    scale: 1.1;
+}
+#copy:active{
+    background-color: #d9d9d9;
+    color: white;
+    scale: 1.1;
+}
+img{
+    width:20px;
+    height: 20px;
+}
